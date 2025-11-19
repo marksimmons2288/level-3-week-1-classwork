@@ -6,8 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "check:node": "node scripts/checkEnv.js hello-from-npm-script",
-    "dev":"live-server --port=3000"
-    
+    "dev": "live-server --port=3000"
   },
   "repository": {
     "type": "git",
@@ -18,5 +17,13 @@
   "bugs": {
     "url": "https://github.com/marksimmons2288/level-3-week-1-day1/issues"
   },
-  "homepage": "https://github.com/marksimmons2288/level-3-week-1-day1#readme"
+  "homepage": "https://github.com/marksimmons2288/level-3-week-1-day1#readme",
+  "dependencies": {
+    "axios": "^1.13.2",
+    "bootstrap": "^5.3.8",
+    "loadash": "^1.0.0"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
 }
