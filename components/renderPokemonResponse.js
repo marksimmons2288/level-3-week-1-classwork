@@ -1,7 +1,11 @@
+
+const content = document.getElementById("content");
+
 function renderPokemonResponse(apiResponse) {
   if (apiResponse.success) {
     // Display the pokemon name
     const pokemon = apiResponse.data;
+   
 
     const typesArray = pokemon.types;
     // let typesString = '';
