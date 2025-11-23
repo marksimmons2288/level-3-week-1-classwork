@@ -10,31 +10,8 @@ const students = [
   { name: "Luis", score: 90, city: "New York" },
   { name: "Maria", score: 70, city: "Los Angeles" },
   { name: "Juan", score: 100, city: "Los Angeles" },
-  { name: "Sarah", score: 60, city: "New York" },
-  { name: "Emily", score: 85, city: "Chicago" },
-  { name: "David", score: 75, city: "Chicago" },
-  { name: "Sophia", score: 95, city: "Miami" },
-  { name: "James", score: 65, city: "Miami" },
-  { name: "Olivia", score: 88, city: "Houston" },
-  { name: "Michael", score: 92, city: "Houston" },
-  { name: "Emma", score: 78, city: "San Francisco" },
-  { name: "Daniel", score: 82, city: "San Francisco" },
-  { name: "Isabella", score: 73, city: "Seattle" },
-  { name: "Matthew", score: 68, city: "Seattle" },
-  { name: "Charlotte", score: 91, city: "Boston" },
-  { name: "Benjamin", score: 77, city: "Boston" },
-  { name: "Amelia", score: 86, city: "Denver" },
-  { name: "Elijah", score: 94, city: "Denver" },
-  { name: "Mia", score: 69, city: "Atlanta" },
-  { name: "Alexander", score: 83, city: "Atlanta" },
-  { name: "Harper", score: 72, city: "Dallas" },
-  { name: "William", score: 99, city: "Dallas" },
-  { name: "Evelyn", score: 74, city: "Austin" },
-  { name: "Jack", score: 81, city: "Austin" },
-  { name: "Abigail", score: 67, city: "Portland" },
-  { name: "Henry", score: 89, city: "Portland" },
-  { name: "Ella", score: 76, city: "San Diego" },
-  { name: "Samuel", score: 93, city: "San Diego" }
+  { name: "Sarah", score: 60, city: "New York" }
+ 
 ];
 
 // Constant freeze variable
